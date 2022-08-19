@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    width: 180vh;
+    height: 130vh;
+    border-style: groove;
+    margin: 10px 30px;
+
+}
+
+
+.header-part img {
+    width: 180vh;
+    height: 25vh;
+}
+
+.s1 {
+    position: absolute;
+    top: 35%;
+    right: 3%;
+    height: 4%;
+    width: 500px;
+    border-radius: 15px;
+  
+  }
+  
+  .s1:hover {
+    background: lightblue;
+  }
+  
+  .s2 {
+    position: absolute;
+    top: 35.5%;
+    right: 3.2%;
+    border-radius: 20px;
+    box-shadow: 200%;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .s2:hover {
+    background-color: greenyellow;
+  }
+  
+
+.nav-bar {
+    background-color: blue;
+    height: 9vh;
+    margin-top: 3px;
+    width: 180vh;
+    position: absolute;
+    top: 40vh;
+
+}
+
+.page .nav-bar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    top: 2.5vh;
+}
+
+.nav-bar a:hover{
+    position: relative;
+    top: 28px;
+    background: darkblue;
+    border-radius: 30px;
+    transition: all 200ms linear;
+
+}
+
+.gif-anna iframe{
+    width: 130vh;
+    height: 70vh;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.gif-anna .news{
+    width: 45vh;
+    height: 67vh;
+    border-style: groove;
+    float: right;
+    margin: 10px 10px ;
+    border-color: #0b6ba5;
+    padding-top: 20px;
+    font-size: larger;
+    color: green;
+}
+
+marquee{
+    padding: 30px;
+    color: blue;
+}
+
+footer{
+background-color: grey;
+height: 3vh;
+width: 180vh;
+margin-left: 1px;
+box-sizing: border-box;
+padding: 5px;
+position: fixed;
+bottom: 2vh;
+
+}
+
+.gif-anna{
+    position: absolute;
+    top: 50vh;
+}

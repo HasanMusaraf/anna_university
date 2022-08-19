@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="/asset/css/admission.css">
+    <script src="/main.js"></script>
+</head>
+<body>
+<div><center><h1>ADMISSION REQUEST FORM</h1></center></div>
+
+    <div class="table-move"><form>
+        <div ><table >
+            <tr>
+                <td>
+                    <h2>Name : </h2>
+                </td>
+                <td> <input type="text" id="Name" placeholder="Name" required> </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Date Of Birth : </h2>
+                </td>
+                <td> <input type="date" id="D.O.B" placeholder="dd/mm/year" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Gender :</h2>
+                </td>
+                <td> <input type="radio" id="male" name="Gender"><b>Male</b> <input type="radio" id="female"
+                        name="Gender"> <b>Female</b>  </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Education Qualification :</h2>
+                </td>
+                <td><select id="eq">
+                        <option></option>
+                        <option>10+2</option>
+                        <option>Graduation</option>
+                        <option>Diploma</option>
+
+                    </select></td>
+            <tr>
+                <td>
+                    <h2>Email :</h2>
+                </td>
+                <td> <input type="mail" id="mail" placeholder="Email" required> </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Phone no :</h2>
+                </td>
+                <td>
+                    <select id="no">
+                        <option></option>
+                        <option>91</option>
+                        <option>92</option>
+                        <option>93</option>
+                        <option>94</option>
+                        <option>95</option>
+                        <option>96</option>
+                        <option>97</option>
+                    </select>
+                    <input type="Phone" id="phone" placeholder="90806*****" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Address :</h2>
+                </td>
+                <td>
+                    <textarea id='add' row="4" col="17" placeholder="Address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="Submit" onclick="saveData()" id="submit" value="Submit"></td>
+                <td><input type="reset" id="reset" value="Reset"> </td>
+            </tr>
+
+
+
+        </table>
+    </form></div>
+
+</body>
+</html>

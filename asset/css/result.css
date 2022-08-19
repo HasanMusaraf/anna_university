@@ -1,0 +1,105 @@
+.r {
+    font-size: 100px;
+    background-color: grey;
+    text-align: center;
+}
+
+.r1 {
+    font-size: 100px;
+    background-color: grey;
+    text-align: center;
+}
+
+.r2 {
+    font-size: 100px;
+    background-color: rgb(170, 134, 204);
+    text-align: center;
+}
+
+.r3 {
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    bottom: 35%;
+    right: 30%;
+    border: 30%;
+
+}
+
+.r4 {
+
+    position: absolute;
+    right: 61%;
+    bottom: 30%;
+}
+
+.r5 {
+
+    position: absolute;
+    right: 56%;
+    bottom: 30%;
+    
+}
+
+.r6 {
+    font-size: 40px;
+    width: 640px;
+    text-align: center;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+.r7 {
+    position: absolute;
+    right: 30%;
+    bottom: 44%;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+}
+
+input[type=number]{
+    height: 3vh;
+    margin-bottom: 1.5vh;
+}
+
+input[type=button]{
+    height: 3vh;
+    width: 10vh;
+    margin-right: 2vh;
+    position: relative;
+    left: 5vh;
+    border-color:black;
+    border-radius:8px;
+    font-weight: 700;
+
+}
+
+input[type=reset]{
+    height: 3vh;
+    width: 10vh;
+    margin-left: 2vh;
+    position: relative;
+    left: 5vh;
+    border-color:black;
+    border-radius:8px;
+    font-weight: 700;
+}
+
+
+input[type=button]:hover{
+    background-color:lightseagreen;
+    font-size: larger;
+}
+
+input[type=reset]{
+    height: 3vh;
+    width: 10vh;
+    position: relative;
+    left: 5vh;
+}
+input[type=reset]:hover{
+    background-color:lightcoral;
+    font-size: larger;
+}
+

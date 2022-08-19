@@ -1,0 +1,92 @@
+body{
+    background-image: url(/asset/img/add.jpg);
+}
+
+body .table-move{
+ position: absolute;
+ top: 25%;
+ left: 35%;
+ background-color: skyblue;
+ padding: 20px;
+ border-radius: 20px;
+box-shadow: 3px 3px 5px 5px;
+
+}
+
+input[type=text]{
+    width: 20vh;
+    height: 3vh;
+    border-radius: 5px;
+}
+input[type=date]{
+    width: 20vh;
+    height: 3vh;
+    border-radius: 5px;
+
+}
+
+input[type=mail]{
+    width: 20vh;
+    height: 3vh;
+    border-radius: 5px;
+}
+#eq{
+    width: 20vh;
+    height: 3vh;
+    border-radius: 5px;
+    
+}
+
+#no{
+    width: 5vh;
+    height: 3vh;
+    border-radius: 5px;
+
+}
+
+#phone{
+    width: 15vh;
+    height: 3vh;
+    border-radius: 5px;
+
+}
+
+#add{
+    width: 25vh;
+    height: 6vh;
+    border-radius: 5px;
+
+}
+
+#submit{
+    width: 10vh;
+    height: 3vh;
+    border-radius: 15px;
+    box-shadow: 1px 0.5px 0.5px 1px ;
+
+}
+#submit:hover{
+    background-color: green;
+    font-size: larger;
+}
+
+
+#reset{
+    width: 10vh;
+    height: 3vh;
+    border-radius: 15px;
+    box-shadow: 1px 0.5px 0.5px 1px ;
+}
+
+#reset:hover{
+    background-color: red;
+    font-size: larger;
+}
+
+h1{
+    position: absolute;
+    top: 17vh;
+    left: 75vh;
+
+    text-shadow: red;
+}

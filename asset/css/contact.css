@@ -1,0 +1,61 @@
+.c {
+    font-size: 600%;
+    text-align: center;
+    padding: 4%;
+    background-color: blue;
+}
+
+.c1 {
+    height: 35px;
+    width: 20%;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+}
+
+.c2 {
+    height: 35px;
+    width: 20%;
+    position: absolute;
+    bottom: 45%;
+    left: 40%;
+}
+
+.c3 {
+    height: 35px;
+    width: 20%;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.c4 {
+    height: 65px;
+    width: 20%;
+    position: absolute;
+    bottom: 31%;
+    left: 40%;
+
+}
+
+.c5 {
+    width: 20.4%;
+    height: 35px;
+    background-color: royalblue;
+    position: absolute;
+    bottom: 27%;
+    left: 40%;
+    box-shadow: 6px 4px 3px rgb(182, 169, 169);
+}
+
+.c6 {
+    position: absolute;
+    bottom: 9%;
+    left: 38%;
+    font-size: 150%;
+}
+
+.c7 {
+    text-decoration: none;
+
+}
